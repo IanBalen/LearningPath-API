@@ -24,8 +24,8 @@ public class ReviewService {
 
         System.out.println("Getting review for id: " + id);
 
-        // Generating a random double between 2 and 5
-        double randomValue = 2 + (5 - 2) * random.nextDouble();
+        // Generating a random double between 1 and 5
+        double randomValue = 1 + (5 - 1) * random.nextDouble();
 
         // Rounding to 2 decimal places
         BigDecimal bd = new BigDecimal(Double.toString(randomValue));
