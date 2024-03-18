@@ -9,7 +9,7 @@ This endpoint is part of a learning module designed to help students understand 
 
 ### Responses:
 
-- **Success (200 OK)**: Returns a double value representing the review score. This score is a randomized number between 2.00 and 5.00, inclusive, rounded to two decimal places.
+- **Success (200 OK)**: Returns a double value representing the review score. This score is a randomized number between 1.00 and 5.00, inclusive, rounded to two decimal places.
   
 - **Error**: On certain occasions, the request will intentionally fail every third request to simulate real-world API behavior and error handling. The failure response includes:
   - An error message explaining the reason for the failure.
