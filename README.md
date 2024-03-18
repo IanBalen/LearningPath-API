@@ -1,11 +1,10 @@
-## Review API Endpoint
-
-### Endpoint: `http://localhost:8081/api/review/{id}`
+## Review API Demo
 
 This endpoint is part of a learning module designed to help students understand how to interact with APIs. By using this endpoint, students can request a review score associated with a specific ID.
 
 ### How to Use:
 - **HTTP Method**: GET
+- **Endpoint:** `http://localhost:8081/api/review/{id}`
 - **URL Path**: Replace `{id}` with the unique identifier for the review you wish to retrieve.
 
 ### Responses:
